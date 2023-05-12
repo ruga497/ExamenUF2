@@ -16,10 +16,9 @@ import static org.junit.Assert.*;
  * @author Ruben
  */
 public class SumaIT {
-    
+
     public SumaIT() {
     }
-     
 
     @Test
     public void testSumar() {
@@ -28,7 +27,7 @@ public class SumaIT {
         s = new Suma(10, -5);
         assertEquals(5, s.sumarr());
     }
-    
+
     @Test
     public void testGetNum1() {
         Suma s = new Suma(2, 3);
@@ -36,7 +35,7 @@ public class SumaIT {
         s = new Suma(-10, 5);
         assertEquals(-10, s.getNum1());
     }
-    
+
     @Test
     public void testSumaValorAbsolut() {
         Suma s = new Suma(2, 3);
@@ -45,6 +44,3 @@ public class SumaIT {
         assertEquals(15, s.sumaValorAbsolut());
     }
 }
-
-    
-
