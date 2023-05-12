@@ -9,7 +9,7 @@ package examenm5final;
  * @author Ruben
  */
 public class Suma {
-        private int num1;
+    private int num1;
     private int num2;
 
     public Suma(int num1, int num2) {
