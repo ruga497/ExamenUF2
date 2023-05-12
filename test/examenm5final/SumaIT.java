@@ -24,9 +24,9 @@ public class SumaIT {
     @Test
     public void testSumar() {
         Suma s = new Suma(2, 3);
-        assertEquals(5, s.sumar());
+        assertEquals(5, s.sumarr());
         s = new Suma(10, -5);
-        assertEquals(5, s.sumar());
+        assertEquals(5, s.sumarr());
     }
     
     @Test
