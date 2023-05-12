@@ -29,4 +29,3 @@ public class Suma {
         return Math.abs(num1) + Math.abs(num2);
     }
 }
-
